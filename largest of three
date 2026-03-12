@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int A,B,C;
+        Scanner s=new Scanner(System.in);
+        A=s.nextInt();
+        B=s.nextInt();
+        C=s.nextInt();
+        
+        if(A>B&&A>B)
+        {System.out.println(A);
+              
+        }
+        else if(B>A&&B>C){
+            System.out.println(B);
+            
+        }
+        else
+            System.out.println(C);
+        }
+}
