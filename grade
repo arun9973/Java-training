@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      int grade;
+        Scanner s=new Scanner(System.in);
+        grade=s.nextInt();
+        if(grade>=90){
+            System.out.println("A");}
+        else if(grade>=75){
+            System.out.println("B");}
+        else 
+        {
+            System.out.println("C");
+       
+        }
+        
+        
+    
+    }
+}
