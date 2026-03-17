@@ -1,0 +1,14 @@
+import java.util.*;
+ public class digit{
+    public static void main(String [] args){
+        int n,i,count;
+        Scanner s= new Scanner (System.in);
+        count=0;
+        n=s.nextInt();
+        i=s.nextInt();
+        for(int j=i;j<=n;j++){
+           if(j<=n){
+            count++;
+        }
+       
+    }  System.out.println(count);}}
